@@ -1,0 +1,24 @@
+{
+  "DEFAULT_IFACE": "Ethernet 8",
+  "LOG_DIR": "logs",
+  "LOG_FORMAT": "jsonl",
+  "TIME_WINDOW": 60,
+  "THRESHOLDS": {
+    "PORTSCAN_UNIQUE_PORTS": 50,
+    "ICMP_FLOOD_COUNT": 100,
+    "DNS_QUERY_COUNT": 50,
+    "FLOOD_WINDOW_SEC": 5,
+    "FLOOD_MIN_PACKETS": 40
+  },
+  "WHITELIST_IPS": [
+    "127.0.0.1",
+    "0.0.0.0",
+    "255.255.255.255"
+  ],
+  "WHITELIST_DOMAIN_SUBSTR": [
+    "windowsupdate.com",
+    "microsoft.com",
+    "office.com",
+    "bing.com"
+  ]
+}
